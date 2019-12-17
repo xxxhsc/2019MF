@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="activityest.com.example.hsc.a2019mf">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="仿微头条"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        tools:replace="label">
+        <activity android:name=".view.ui.activity.BottomNavigationActivity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.ui.activity.RegisterActivity" />
+        <activity android:name=".view.ui.activity.MainActivity" />
+        <activity android:name=".view.ui.activity.LoginActivity" />
+        <activity android:name=".view.ui.activity.ArticleActivity" />
+        <activity android:name=".view.ui.activity.HistoryActivity" />
+        <activity android:name=".view.ui.activity.InterstActivity" />
+        <activity android:name=".view.ui.activity.FansActivity" />
+        <activity android:name=".view.ui.activity.CollectActivity" />
+        <activity android:name=".view.ui.activity.VideoActivity" />
+        <activity android:name=".view.ui.activity.CreatArticleActivity" />
+        <activity android:name=".view.ui.activity.CreatTextActivity" />
+        <activity android:name=".view.ui.activity.CreatVideoActivity" />
+        <activity android:name=".view.ui.activity.testActivity" />
+
+        <provider
+            android:name="cn.bmob.v3.util.BmobContentProvider"
+            android:authorities="activityest.com.example.hsc.a2019mf.BmobContentProvider" />
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="activityest.com.example.hsc.a2019mf.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

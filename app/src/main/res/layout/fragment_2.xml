@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/fans_search"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@color/colorLightRed"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:text="视频"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/bt_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/fans_search"
+                android:layout_alignRight="@+id/fans_search"
+                android:layout_alignBottom="@+id/fans_search"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="378dp"
+                android:layout_marginLeft="378dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginRight="1dp"
+                android:src="@android:drawable/ic_menu_search" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="536dp"
+            android:orientation="vertical">
+
+            <com.cjj.MaterialRefreshLayout
+                android:id="@+id/video_refresh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:overlay="false"
+                app:wave_height_type="normal"
+                app:wave_show="true">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/video_recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="525dp" />
+            </com.cjj.MaterialRefreshLayout>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+
+</FrameLayout>

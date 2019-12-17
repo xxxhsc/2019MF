@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#D33D3C</color>
+    <color name="colorPrimaryDark">#D33D3C</color>
+    <color name="colorAccent">#D33D3C</color>
+    <color name="transparent_half">#a0000000</color>
+    <color name="transparent_half_orange">#a0ec6f1a</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="top_bar_normal_bg">#ec6f1a</color>
+
+    <color name="bg_normal_gray">#e0e0e0</color>
+
+    <color name="line">#e0e0e0</color>
+    <color name="tv_gray_litter">#FAF0E6</color>
+    <color name="tv_gray_normal">#c0c0c0</color>
+    <color name="tv_gray_deep">#818181</color>
+    <color name="tv_gray_lit">#50b1b1b1</color>
+    <color name="tv_gray">@android:color/darker_gray</color>
+    <color name="tv_color">#ffffff</color>
+    <color name="list_glide">#50e0e0e0</color>
+
+
+    <!-- 公司主题色 -->
+    <color name="pink_main">#D03569</color>
+    <color name="pink_light">#d0359c</color>
+    <color name="pink_deep">#d03560</color>
+    <color name="pink_most">#d03569</color>
+    <color name="pink_litter">#e67ec0</color>
+
+
+    <color name="white">#fffffa</color>
+    <color name="gray">#cccccc</color>
+
+    <color name="text_avgpre">#ffecc50d</color>
+    <color name="drop_down_selected">#7B1FA2</color>
+    <color name="drop_down_unselected">#111111</color>
+    <color name="black_translucent">#50000000</color>
+    <!-- 浅灰色 -->
+    <color name="gray_light">#E7E7E7</color>
+
+    <color name="mask_color">#88888888</color>
+    <color name="main_bg">#10aaaaaa</color>
+    <color name="main_bg_userinfo">#10777777</color>
+    <color name="temple_header_color">#50888888</color>
+    <color name="check_bg">#f2f2f2</color>
+    <color name="un_press_color">#9C27B0</color>
+
+    <color name="color_back">#207579</color>
+    <color name="color_backnor">#7fdcd9</color>
+    <color name="color_dialog">#33B5E5</color>
+
+    <!--******  floating Action Button *********-->
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+
+    <!--****************  bottonnavigation   ********************-->
+
+    <color name="teal">#00796B</color>
+    <color name="te">#80FCE6C9</color>
+    <color name="brown">#8D6E63</color>
+    <color name="blue">#2196F3</color>
+    <color name="red">#FF0000</color>
+    <color name="grey">#607D8B</color>
+    <color name="orange">#F57C00</color>
+    <!--浅绿-->
+    <color name="colorLightGreen">#01bdab</color>
+    <!--红色-->
+    <color name="colorLightRed">#d53934</color>
+    <!--文字灰白色-->
+    <color name="colorTextGrey">#aaaaaa</color>
+    <!--背景白色-->
+    <color name="bg_white">#ffffff</color>
+
+
+
+
+    <!--searchView-->
+    <color name="search_layover_bg">#50000000</color>
+    <color name="theme_primary">#2196F3</color>
+
+
+
+
+    <color name="translucent">#aa000000</color>
+
+    <color name="color_D33D3C">#D33D3C</color>
+    <color name="color_BDBDBD">#BDBDBD</color>
+    <color name="color_F3F5F4">#F3F5F4</color>
+    <color name="color_515051">#515051</color>
+    <color name="color_F2F4F3">#F2F4F3</color>
+    <color name="color_222222">#222222</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_e6e6e6">#e6e6e6</color>
+    <color name="color_e8e8e8">#e8e8e8</color>
+    <color name="color_d43d3d">#d43d3d</color>
+    <color name="color_1a1b1d">#1a1b1d</color>
+    <color name="color_b11919">#b11919</color>
+    <color name="color_F96B6B">#F96B6B</color>
+    <color name="color_3091D8">#3091D8</color>
+    <color name="color_d8d8d8">#d8d8d8</color>
+    <color name="color_f4f5f6">#f4f5f6</color>
+    <color name="color_406599">#406599</color>
+    <color name="color_cacaca">#cacaca</color>
+    <color name="color_505050">#505050</color>
+    <color name="color_C1C1C1">#C1C1C1</color>
+    <color name="color_f85959">#f85959</color>
+    <color name="color_D5E8F6">#D5E8F6</color>
+    <color name="color_4592C6">#4592C6</color>
+    <color name="color_1affffff">#1affffff</color>
+    <color name="color_E6E8E7">#E6E8E7</color>
+
+
+
+</resources>

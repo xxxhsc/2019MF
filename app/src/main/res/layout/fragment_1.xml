@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/fans_search"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@color/colorLightRed"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:text="仿微头条"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/bt_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/fans_search"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:src="@android:drawable/ic_menu_search" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <me.weyye.library.colortrackview.ColorTrackTabLayout
+                android:id="@+id/tab_channel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_toStartOf="@+id/iv_operation"
+                android:layout_toLeftOf="@+id/iv_operation"
+                android:background="@color/white"
+                app:tabIndicatorColor="@color/color_f85959"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/color_f85959"
+                app:tabTextAppearance="@style/TextAppearanceHome"
+                app:tabTextColor="#ff222222"
+                tools:ignore="UnknownId" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/color_d8d8d8" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="486dp"
+            android:orientation="vertical">
+
+            <com.cjj.MaterialRefreshLayout
+                android:id="@+id/news_refresh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:overlay="false"
+                app:wave_height_type="normal"
+                app:wave_show="true">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/article_recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </com.cjj.MaterialRefreshLayout>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+
+</FrameLayout>

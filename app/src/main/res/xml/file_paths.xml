@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android"
+    package="activityest.com.example.hsc.a2019mf">
+
+
+<external-cache-path name="mf_file" path="iamges"/>
+
+</paths>
